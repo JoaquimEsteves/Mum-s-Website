@@ -1,3 +1,9 @@
+## Git ignore stuff I added personally
+
+output/
+
+## Auto-generated node git ignore
+
 # Logs
 logs
 *.log
