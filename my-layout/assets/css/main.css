@@ -1,5 +1,9 @@
+/* This project falls under the GNU GENERAL PUBLIC LICENSE Version 3
+  Go ahead and read full license at: this-url/LICENSE                       
+*/
 html {
   background-color: #fefefe;
+  /* maybe try: #f4ecd8 */
 }
 body {
   font-family: Open Sans, Arial;
@@ -11,6 +15,19 @@ body {
   line-height: 1.4;
   text-align: justify;
 }
+
+img {
+  /* (optimistically) Center images */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+article {
+  max-width: 30em;
+  margin: 0 auto;
+}
+
 html.contrast body {
   color: #050505;
 }
@@ -115,30 +132,7 @@ small {
 p.st {
   margin-top: -1em;
 }
-div.fancyPositioning div.picture-left {
-  float: left;
-  width: 40%;
-  overflow: hidden;
-  margin-right: 1em;
-}
-div.fancyPositioning div.picture-left img {
-  width: 100%;
-}
-div.fancyPositioning div.picture-left p.caption {
-  font-size: 0.7em;
-}
-div.fancyPositioning div.tleft {
-  float: left;
-  width: 55%;
-}
-div.fancyPositioning div.tleft p:first-child {
-  margin-top: 0;
-}
-div.fancyPositioning:after {
-  display: block;
-  content: "";
-  clear: both;
-}
+
 ul li img {
   height: 1em;
 }
@@ -236,56 +230,4 @@ div#invmode {
   background-color: #000;
   top: 34px;
   padding: 2px 5px;
-}
-span.sb {
-  color: #00e;
-}
-span.sb,
-span.sv {
-  cursor: not-allowed;
-}
-span.sv {
-  color: #551a8b;
-}
-span.foufoufou {
-  color: #444;
-  font-weight: 700;
-}
-span.foufoufou:before {
-  content: "";
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  margin-left: 0.2em;
-  margin-right: 0.2em;
-  background-color: #444;
-}
-span.foufivfoufivfoufiv {
-  color: #454545;
-  font-weight: 700;
-}
-span.foufivfoufivfoufiv:before {
-  content: "";
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  margin-left: 0.2em;
-  margin-right: 0.2em;
-  background-color: #454545;
-}
-span.mfw {
-  color: #730000;
-}
-a.kopimi,
-a.kopimi img.kopimi {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-a.kopimi img.kopimi {
-  height: 2em;
-}
-p.fakepre {
-  font-family: monospace;
-  font-size: 0.9em;
 }

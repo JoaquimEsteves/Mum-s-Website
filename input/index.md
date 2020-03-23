@@ -15,4 +15,4 @@ Imagens é assim:
 
 ## Livros
 
-[Compre aqui o meu livro](./livros)
+[Compre aqui o meu livro](./livros/index.html)
